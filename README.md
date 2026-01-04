@@ -65,11 +65,10 @@ Results align with published studies showing:
 ## 🛠️ Technical Implementation
 
 ### 📦 **R Packages Used**
-```r
+
 affy, affyQCReport, simpleaffy, MKmisc, arrayQualityMetrics,
 RobLoxBioC, gcrma, plier, vsn, genefilter, limma
 
-```r
 ## 📁 File Structure
 
 Diabetes_Lung_Expression/
@@ -87,28 +86,24 @@ Diabetes_Lung_Expression/
 # Install Dependencies
 
 # Install required packages
-```r
+
 install.packages(c("affy", "affyQCReport", "simpleaffy", "MKmisc", 
                    "RobLoxBioC", "gcrma", "plier", "vsn", 
                    "genefilter", "limma", "rmarkdown"))
-```r
-# Install Bioconductor packages
 
-```r
+# Install Bioconductor packages
 if (!require("BiocManager", quietly = TRUE))
     install.packages("BiocManager")
 BiocManager::install(c("affy", "gcrma", "plier", "vsn", "limma"))
 
-```r
 # Run Analysis
 
 # Render the complete report
 rmarkdown::render("3rd.Rmd", output_format = "pdf_document")
 
 # Or run chunks interactively
-```r
 source("3rd.Rmd")
-```r
+
 ## 📝 Interpretation & Implications
 Biological Significance
 Lung tissue shows resilience to diabetes-induced transcriptional changes
