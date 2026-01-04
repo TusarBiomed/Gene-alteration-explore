@@ -1,7 +1,7 @@
 ---
 title: "Explore if there any alterations in lung gene expression in streptozotocin-induced diabetic rats."
 author: "Tusar"
-date: "17 July 2017"
+date: "17 July 2022"
 documenclass: article
 fontsize: 11pt
 papersize: a4
@@ -276,7 +276,7 @@ topTable(fit3, adjust="BH")
 
 All of cases the logFC are positive(means genes with increased expression) and it's within $+0.80$ range. Each & every p-value justify that, the result's are Statistically significant. So it's clear that gene expression not changed on high level in the lung due to diabetes induced.
 
-Publication's result also support that, only small number of genes in the lung altered the expression. The gene expression alteration scale also very narrow. About 46 genes expressed level  alterations in a range of $± 1.5$, $± 2$ levels of expressed alterations ocured in 5 genes and 1 genes increased expression on$+3$ level.
+Publication's result also support that, only small number of genes in the lung altered the expression. The gene expression alteration scale also very narrow. About 46 genes expressed level  alterations in a range of $Â± 1.5$, $Â± 2$ levels of expressed alterations ocured in 5 genes and 1 genes increased expression on$+3$ level.
 
 # Software
 Following software versions were used to generate this report.
@@ -291,4 +291,5 @@ sessionInfo()
  van Lunteren.
  
 2. https://www.ncbi.nlm.nih.gov
+
 
